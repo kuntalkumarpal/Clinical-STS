@@ -9,5 +9,5 @@ Created on Sun Jun 16 17:33:23 2019
 from data.DataLoader import DataLoader
 #from features.CustomTokenizer import CustomTokenizer
 
-pairs = DataLoader("../../data/train/jsonl/clinicalSTS2019_dev.jsonl")
+pairs = DataLoader("<srcdata>")
 #print(CustomTokenizer(pairs[3][0]))
